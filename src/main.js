@@ -114,7 +114,7 @@ new Vue({
     // beforeUpdate () {
     //     this.getCityList()
     // },
-    // watch: {
-    //     '$route': 'getCityList'
-    // }
+    watch: {
+        '$route': 'getCityList'
+    }
 })
